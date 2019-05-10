@@ -40,7 +40,7 @@ header a:hover{
   padding:20px;
   font-size: 20px;
 }
-.dropdown__item{
+.dropdown{
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -53,20 +53,20 @@ header a:hover{
 }
 .sottomenu {
   position: absolute;
-  left: 160px;
+  left: 125px;
   top: 0;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   background: white;
   display: none;
 }
-.dropdown__item a,
+.dropdown a,
 .sottomenu a{
   display: block;
   padding:20px 40px;
   color:lightgrey;
 }
-.dropdown__item a:hover,
+.dropdown a:hover,
 .sottomenu a:hover{
   background: rgb(243, 244, 245);
   color:black;
